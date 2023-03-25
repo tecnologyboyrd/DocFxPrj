@@ -1,0 +1,211 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Leonard Perez/source/repos/DocFxPrj/DocFxPrj",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.Clase2.Del.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.Clase2.Del.html",
+          "hash": "PJBSwgsqDuKozTKI3KctBH/HzoBfgn1MoBUYyabn8Vs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.Clase2.Nested.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.Clase2.Nested.html",
+          "hash": "y7Rq2xfnu+FbwxQtfJ80y68I9N9Eumdx1UQJm0ZYV7M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.Clase2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.Clase2.html",
+          "hash": "JsZbre9R6OURF7UOAuY3Sh3AmcS8R3OYK3DoLqceYf8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.MyClass.Del.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.MyClass.Del.html",
+          "hash": "AgsEJeZRdHzX9XA3QGeDQzi84kNOLt6498GIp88klww="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.MyClass.Nested.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.MyClass.Nested.html",
+          "hash": "HKxM8CAcFMC2svX7+EegWctFNYjT6KuNDnkGLPBJ+Ac="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.MyClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.MyClass.html",
+          "hash": "ITNJPSXS3LX8FuHMBTlBtvP0I8UUABP2S/DnRswUSr4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxPrj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxPrj.html",
+          "hash": "NdKE8vhSCjlnwgGtxc+hisYyYBZbcblw7MBUgOXZWzA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "tdO4W4yBI57BFA7oiRNKf0ioT48D+lUzhi4zZ3JxzJA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "LTkBEDZFXkLKs+f0CpmJn2prncfGzu0QB3Iw19ehH+Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/webAppGhp.Controllers.HomeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/webAppGhp.Controllers.HomeController.html",
+          "hash": "XnuR6H4rA0VRUwuzjHrq++lqj2aqB2t1GI0xlLbz2og="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/webAppGhp.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/webAppGhp.Controllers.html",
+          "hash": "Fczyhv1CavLKLF9A9lFMAzsLeYhadGHsY0zHX7gQOJ4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/webAppGhp.Models.ErrorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/webAppGhp.Models.ErrorViewModel.html",
+          "hash": "K5VtqYLk1Wq8RCcrVXJJhI9NlzV+n3CMN90OK1+wX1o="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/webAppGhp.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/webAppGhp.Models.html",
+          "hash": "YSgYIApivnJSdEIl5A3uGlGLwKElwsz4hNUfJTorEUo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "W68zofQxL0vi0zgn8CJbF5XrrKwVmKezBeyMUs+w3h4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/prueba.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/prueba.html",
+          "hash": "WLlR3aLiuDHRXJI+KoP3oPhrFICZ+CA3kE5Jn5+/vPs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "QqkVwKSinT1d8qTPVjydNHwlfDK9vtDbXdHqZGPkYUA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: DocFxPrj
+  name: DocFxPrj
+  href: api/DocFxPrj.html
+  commentId: N:DocFxPrj
+  fullName: DocFxPrj
+  nameWithType: DocFxPrj
+- uid: DocFxPrj.Clase2
+  name: Clase2
+  href: api/DocFxPrj.Clase2.html
+  commentId: T:DocFxPrj.Clase2
+  fullName: DocFxPrj.Clase2
+  nameWithType: Clase2
+- uid: DocFxPrj.Clase2.#ctor
+  name: Clase2()
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2__ctor
+  commentId: M:DocFxPrj.Clase2.#ctor
+  name.vb: New()
+  fullName: DocFxPrj.Clase2.Clase2()
+  fullName.vb: DocFxPrj.Clase2.New()
+  nameWithType: Clase2.Clase2()
+  nameWithType.vb: Clase2.New()
+- uid: DocFxPrj.Clase2.#ctor(System.Int32)
+  name: Clase2(int)
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2__ctor_System_Int32_
+  commentId: M:DocFxPrj.Clase2.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: DocFxPrj.Clase2.Clase2(int)
+  fullName.vb: DocFxPrj.Clase2.New(Integer)
+  nameWithType: Clase2.Clase2(int)
+  nameWithType.vb: Clase2.New(Integer)
+- uid: DocFxPrj.Clase2.#ctor*
+  name: Clase2
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2__ctor_
+  commentId: Overload:DocFxPrj.Clase2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DocFxPrj.Clase2.Clase2
+  fullName.vb: DocFxPrj.Clase2.New
+  nameWithType: Clase2.Clase2
+  nameWithType.vb: Clase2.New
+- uid: DocFxPrj.Clase2.anotherMethod(System.Int16[],System.Int32[0:,0:])
+  name: anotherMethod(short[], int[,])
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_anotherMethod_System_Int16___System_Int32_0__0___
+  commentId: M:DocFxPrj.Clase2.anotherMethod(System.Int16[],System.Int32[0:,0:])
+  name.vb: anotherMethod(Short(), Integer(,))
+  fullName: DocFxPrj.Clase2.anotherMethod(short[], int[,])
+  fullName.vb: DocFxPrj.Clase2.anotherMethod(Short(), Integer(,))
+  nameWithType: Clase2.anotherMethod(short[], int[,])
+  nameWithType.vb: Clase2.anotherMethod(Short(), Integer(,))
+- uid: DocFxPrj.Clase2.anotherMethod*
+  name: anotherMethod
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_anotherMethod_
+  commentId: Overload:DocFxPrj.Clase2.anotherMethod
+  isSpec: "True"
+  fullName: DocFxPrj.Clase2.anotherMethod
+  nameWithType: Clase2.anotherMethod
+- uid: DocFxPrj.Clase2.Del
+  name: Clase2.Del
+  href: api/DocFxPrj.Clase2.Del.html
+  commentId: T:DocFxPrj.Clase2.Del
+  fullName: DocFxPrj.Clase2.Del
+  nameWithType: Clase2.Del
+- uid: DocFxPrj.Clase2.func
+  name: func()
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_func
+  commentId: M:DocFxPrj.Clase2.func
+  fullName: DocFxPrj.Clase2.func()
+  nameWithType: Clase2.func()
+- uid: DocFxPrj.Clase2.func*
+  name: func
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_func_
+  commentId: Overload:DocFxPrj.Clase2.func
+  isSpec: "True"
+  fullName: DocFxPrj.Clase2.func
+  nameWithType: Clase2.func
+- uid: DocFxPrj.Clase2.Item(System.String)
+  name: this[string]
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_Item_System_String_
+  commentId: P:DocFxPrj.Clase2.Item(System.String)
+  name.vb: this[](String)
+  fullName: DocFxPrj.Clase2.this[string]
+  fullName.vb: DocFxPrj.Clase2.this[](String)
+  nameWithType: Clase2.this[string]
+  nameWithType.vb: Clase2.this[](String)
+- uid: DocFxPrj.Clase2.Item*
+  name: this
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_Item_
+  commentId: Overload:DocFxPrj.Clase2.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: DocFxPrj.Clase2.this
+  fullName.vb: DocFxPrj.Clase2.this[]
+  nameWithType: Clase2.this
+  nameWithType.vb: Clase2.this[]
+- uid: DocFxPrj.Clase2.message
+  name: message
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_message
+  commentId: F:DocFxPrj.Clase2.message
+  fullName: DocFxPrj.Clase2.message
+  nameWithType: Clase2.message
+- uid: DocFxPrj.Clase2.Nested
+  name: Clase2.Nested
+  href: api/DocFxPrj.Clase2.Nested.html
+  commentId: T:DocFxPrj.Clase2.Nested
+  fullName: DocFxPrj.Clase2.Nested
+  nameWithType: Clase2.Nested
+- uid: DocFxPrj.Clase2.OnHappened
+  name: OnHappened
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_OnHappened
+  commentId: E:DocFxPrj.Clase2.OnHappened
+  fullName: DocFxPrj.Clase2.OnHappened
+  nameWithType: Clase2.OnHappened
+- uid: DocFxPrj.Clase2.op_Addition(DocFxPrj.Clase2,DocFxPrj.Clase2)
+  name: operator +(Clase2, Clase2)
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_op_Addition_DocFxPrj_Clase2_DocFxPrj_Clase2_
+  commentId: M:DocFxPrj.Clase2.op_Addition(DocFxPrj.Clase2,DocFxPrj.Clase2)
+  name.vb: +(Clase2, Clase2)
+  fullName: DocFxPrj.Clase2.operator +(DocFxPrj.Clase2, DocFxPrj.Clase2)
+  fullName.vb: DocFxPrj.Clase2.+(DocFxPrj.Clase2, DocFxPrj.Clase2)
+  nameWithType: Clase2.operator +(Clase2, Clase2)
+  nameWithType.vb: Clase2.+(Clase2, Clase2)
+- uid: DocFxPrj.Clase2.op_Addition*
+  name: operator +
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_op_Addition_
+  commentId: Overload:DocFxPrj.Clase2.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: DocFxPrj.Clase2.operator +
+  fullName.vb: DocFxPrj.Clase2.+
+  nameWithType: Clase2.operator +
+  nameWithType.vb: Clase2.+
+- uid: DocFxPrj.Clase2.op_Explicit(DocFxPrj.Clase2)~System.Int32
+  name: explicit operator int(Clase2)
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_op_Explicit_DocFxPrj_Clase2__System_Int32
+  commentId: M:DocFxPrj.Clase2.op_Explicit(DocFxPrj.Clase2)~System.Int32
+  name.vb: CType(Clase2)
+  fullName: DocFxPrj.Clase2.explicit operator int(DocFxPrj.Clase2)
+  fullName.vb: DocFxPrj.Clase2.CType(DocFxPrj.Clase2)
+  nameWithType: Clase2.explicit operator int(Clase2)
+  nameWithType.vb: Clase2.CType(Clase2)
+- uid: DocFxPrj.Clase2.op_Explicit*
+  name: explicit operator
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_op_Explicit_
+  commentId: Overload:DocFxPrj.Clase2.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: DocFxPrj.Clase2.explicit operator
+  fullName.vb: DocFxPrj.Clase2.CType
+  nameWithType: Clase2.explicit operator
+  nameWithType.vb: Clase2.CType
+- uid: DocFxPrj.Clase2.PI
+  name: PI
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_PI
+  commentId: F:DocFxPrj.Clase2.PI
+  fullName: DocFxPrj.Clase2.PI
+  nameWithType: Clase2.PI
+- uid: DocFxPrj.Clase2.prop
+  name: prop
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_prop
+  commentId: P:DocFxPrj.Clase2.prop
+  fullName: DocFxPrj.Clase2.prop
+  nameWithType: Clase2.prop
+- uid: DocFxPrj.Clase2.prop*
+  name: prop
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_prop_
+  commentId: Overload:DocFxPrj.Clase2.prop
+  isSpec: "True"
+  fullName: DocFxPrj.Clase2.prop
+  nameWithType: Clase2.prop
+- uid: DocFxPrj.Clase2.someMethod(System.String,System.Int32@,System.Void*)
+  name: someMethod(string, ref int, void*)
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_someMethod_System_String_System_Int32__System_Void__
+  commentId: M:DocFxPrj.Clase2.someMethod(System.String,System.Int32@,System.Void*)
+  name.vb: someMethod(String, Integer, Void*)
+  fullName: DocFxPrj.Clase2.someMethod(string, ref int, void*)
+  fullName.vb: DocFxPrj.Clase2.someMethod(String, Integer, Void*)
+  nameWithType: Clase2.someMethod(string, ref int, void*)
+  nameWithType.vb: Clase2.someMethod(String, Integer, Void*)
+- uid: DocFxPrj.Clase2.someMethod*
+  name: someMethod
+  href: api/DocFxPrj.Clase2.html#DocFxPrj_Clase2_someMethod_
+  commentId: Overload:DocFxPrj.Clase2.someMethod
+  isSpec: "True"
+  fullName: DocFxPrj.Clase2.someMethod
+  nameWithType: Clase2.someMethod
+- uid: DocFxPrj.MyClass
+  name: MyClass
+  href: api/DocFxPrj.MyClass.html
+  commentId: T:DocFxPrj.MyClass
+  fullName: DocFxPrj.MyClass
+  nameWithType: MyClass
+- uid: DocFxPrj.MyClass.#ctor
+  name: MyClass()
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass__ctor
+  commentId: M:DocFxPrj.MyClass.#ctor
+  name.vb: New()
+  fullName: DocFxPrj.MyClass.MyClass()
+  fullName.vb: DocFxPrj.MyClass.New()
+  nameWithType: MyClass.MyClass()
+  nameWithType.vb: MyClass.New()
+- uid: DocFxPrj.MyClass.#ctor(System.Int32)
+  name: MyClass(int)
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass__ctor_System_Int32_
+  commentId: M:DocFxPrj.MyClass.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: DocFxPrj.MyClass.MyClass(int)
+  fullName.vb: DocFxPrj.MyClass.New(Integer)
+  nameWithType: MyClass.MyClass(int)
+  nameWithType.vb: MyClass.New(Integer)
+- uid: DocFxPrj.MyClass.#ctor*
+  name: MyClass
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass__ctor_
+  commentId: Overload:DocFxPrj.MyClass.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DocFxPrj.MyClass.MyClass
+  fullName.vb: DocFxPrj.MyClass.New
+  nameWithType: MyClass.MyClass
+  nameWithType.vb: MyClass.New
+- uid: DocFxPrj.MyClass.anotherMethod(System.Int16[],System.Int32[0:,0:])
+  name: anotherMethod(short[], int[,])
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_anotherMethod_System_Int16___System_Int32_0__0___
+  commentId: M:DocFxPrj.MyClass.anotherMethod(System.Int16[],System.Int32[0:,0:])
+  name.vb: anotherMethod(Short(), Integer(,))
+  fullName: DocFxPrj.MyClass.anotherMethod(short[], int[,])
+  fullName.vb: DocFxPrj.MyClass.anotherMethod(Short(), Integer(,))
+  nameWithType: MyClass.anotherMethod(short[], int[,])
+  nameWithType.vb: MyClass.anotherMethod(Short(), Integer(,))
+- uid: DocFxPrj.MyClass.anotherMethod*
+  name: anotherMethod
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_anotherMethod_
+  commentId: Overload:DocFxPrj.MyClass.anotherMethod
+  isSpec: "True"
+  fullName: DocFxPrj.MyClass.anotherMethod
+  nameWithType: MyClass.anotherMethod
+- uid: DocFxPrj.MyClass.Del
+  name: MyClass.Del
+  href: api/DocFxPrj.MyClass.Del.html
+  commentId: T:DocFxPrj.MyClass.Del
+  fullName: DocFxPrj.MyClass.Del
+  nameWithType: MyClass.Del
+- uid: DocFxPrj.MyClass.func
+  name: func()
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_func
+  commentId: M:DocFxPrj.MyClass.func
+  fullName: DocFxPrj.MyClass.func()
+  nameWithType: MyClass.func()
+- uid: DocFxPrj.MyClass.func*
+  name: func
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_func_
+  commentId: Overload:DocFxPrj.MyClass.func
+  isSpec: "True"
+  fullName: DocFxPrj.MyClass.func
+  nameWithType: MyClass.func
+- uid: DocFxPrj.MyClass.Item(System.String)
+  name: this[string]
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_Item_System_String_
+  commentId: P:DocFxPrj.MyClass.Item(System.String)
+  name.vb: this[](String)
+  fullName: DocFxPrj.MyClass.this[string]
+  fullName.vb: DocFxPrj.MyClass.this[](String)
+  nameWithType: MyClass.this[string]
+  nameWithType.vb: MyClass.this[](String)
+- uid: DocFxPrj.MyClass.Item*
+  name: this
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_Item_
+  commentId: Overload:DocFxPrj.MyClass.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: DocFxPrj.MyClass.this
+  fullName.vb: DocFxPrj.MyClass.this[]
+  nameWithType: MyClass.this
+  nameWithType.vb: MyClass.this[]
+- uid: DocFxPrj.MyClass.message
+  name: message
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_message
+  commentId: F:DocFxPrj.MyClass.message
+  fullName: DocFxPrj.MyClass.message
+  nameWithType: MyClass.message
+- uid: DocFxPrj.MyClass.Nested
+  name: MyClass.Nested
+  href: api/DocFxPrj.MyClass.Nested.html
+  commentId: T:DocFxPrj.MyClass.Nested
+  fullName: DocFxPrj.MyClass.Nested
+  nameWithType: MyClass.Nested
+- uid: DocFxPrj.MyClass.OnHappened
+  name: OnHappened
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_OnHappened
+  commentId: E:DocFxPrj.MyClass.OnHappened
+  fullName: DocFxPrj.MyClass.OnHappened
+  nameWithType: MyClass.OnHappened
+- uid: DocFxPrj.MyClass.op_Addition(DocFxPrj.MyClass,DocFxPrj.MyClass)
+  name: operator +(MyClass, MyClass)
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_op_Addition_DocFxPrj_MyClass_DocFxPrj_MyClass_
+  commentId: M:DocFxPrj.MyClass.op_Addition(DocFxPrj.MyClass,DocFxPrj.MyClass)
+  name.vb: +(MyClass, MyClass)
+  fullName: DocFxPrj.MyClass.operator +(DocFxPrj.MyClass, DocFxPrj.MyClass)
+  fullName.vb: DocFxPrj.MyClass.+(DocFxPrj.MyClass, DocFxPrj.MyClass)
+  nameWithType: MyClass.operator +(MyClass, MyClass)
+  nameWithType.vb: MyClass.+(MyClass, MyClass)
+- uid: DocFxPrj.MyClass.op_Addition*
+  name: operator +
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_op_Addition_
+  commentId: Overload:DocFxPrj.MyClass.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: DocFxPrj.MyClass.operator +
+  fullName.vb: DocFxPrj.MyClass.+
+  nameWithType: MyClass.operator +
+  nameWithType.vb: MyClass.+
+- uid: DocFxPrj.MyClass.op_Explicit(DocFxPrj.MyClass)~System.Int32
+  name: explicit operator int(MyClass)
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_op_Explicit_DocFxPrj_MyClass__System_Int32
+  commentId: M:DocFxPrj.MyClass.op_Explicit(DocFxPrj.MyClass)~System.Int32
+  name.vb: CType(MyClass)
+  fullName: DocFxPrj.MyClass.explicit operator int(DocFxPrj.MyClass)
+  fullName.vb: DocFxPrj.MyClass.CType(DocFxPrj.MyClass)
+  nameWithType: MyClass.explicit operator int(MyClass)
+  nameWithType.vb: MyClass.CType(MyClass)
+- uid: DocFxPrj.MyClass.op_Explicit*
+  name: explicit operator
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_op_Explicit_
+  commentId: Overload:DocFxPrj.MyClass.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: DocFxPrj.MyClass.explicit operator
+  fullName.vb: DocFxPrj.MyClass.CType
+  nameWithType: MyClass.explicit operator
+  nameWithType.vb: MyClass.CType
+- uid: DocFxPrj.MyClass.PI
+  name: PI
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_PI
+  commentId: F:DocFxPrj.MyClass.PI
+  fullName: DocFxPrj.MyClass.PI
+  nameWithType: MyClass.PI
+- uid: DocFxPrj.MyClass.prop
+  name: prop
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_prop
+  commentId: P:DocFxPrj.MyClass.prop
+  fullName: DocFxPrj.MyClass.prop
+  nameWithType: MyClass.prop
+- uid: DocFxPrj.MyClass.prop*
+  name: prop
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_prop_
+  commentId: Overload:DocFxPrj.MyClass.prop
+  isSpec: "True"
+  fullName: DocFxPrj.MyClass.prop
+  nameWithType: MyClass.prop
+- uid: DocFxPrj.MyClass.someMethod(System.String,System.Int32@,System.Void*)
+  name: someMethod(string, ref int, void*)
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_someMethod_System_String_System_Int32__System_Void__
+  commentId: M:DocFxPrj.MyClass.someMethod(System.String,System.Int32@,System.Void*)
+  name.vb: someMethod(String, Integer, Void*)
+  fullName: DocFxPrj.MyClass.someMethod(string, ref int, void*)
+  fullName.vb: DocFxPrj.MyClass.someMethod(String, Integer, Void*)
+  nameWithType: MyClass.someMethod(string, ref int, void*)
+  nameWithType.vb: MyClass.someMethod(String, Integer, Void*)
+- uid: DocFxPrj.MyClass.someMethod*
+  name: someMethod
+  href: api/DocFxPrj.MyClass.html#DocFxPrj_MyClass_someMethod_
+  commentId: Overload:DocFxPrj.MyClass.someMethod
+  isSpec: "True"
+  fullName: DocFxPrj.MyClass.someMethod
+  nameWithType: MyClass.someMethod
+- uid: webAppGhp.Controllers
+  name: webAppGhp.Controllers
+  href: api/webAppGhp.Controllers.html
+  commentId: N:webAppGhp.Controllers
+  fullName: webAppGhp.Controllers
+  nameWithType: webAppGhp.Controllers
+- uid: webAppGhp.Controllers.HomeController
+  name: HomeController
+  href: api/webAppGhp.Controllers.HomeController.html
+  commentId: T:webAppGhp.Controllers.HomeController
+  fullName: webAppGhp.Controllers.HomeController
+  nameWithType: HomeController
+- uid: webAppGhp.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{webAppGhp.Controllers.HomeController})
+  name: HomeController(ILogger<HomeController>)
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController__ctor_Microsoft_Extensions_Logging_ILogger_webAppGhp_Controllers_HomeController__
+  commentId: M:webAppGhp.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{webAppGhp.Controllers.HomeController})
+  name.vb: New(ILogger(Of HomeController))
+  fullName: webAppGhp.Controllers.HomeController.HomeController(Microsoft.Extensions.Logging.ILogger<webAppGhp.Controllers.HomeController>)
+  fullName.vb: webAppGhp.Controllers.HomeController.New(Microsoft.Extensions.Logging.ILogger(Of webAppGhp.Controllers.HomeController))
+  nameWithType: HomeController.HomeController(ILogger<HomeController>)
+  nameWithType.vb: HomeController.New(ILogger(Of HomeController))
+- uid: webAppGhp.Controllers.HomeController.#ctor*
+  name: HomeController
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController__ctor_
+  commentId: Overload:webAppGhp.Controllers.HomeController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: webAppGhp.Controllers.HomeController.HomeController
+  fullName.vb: webAppGhp.Controllers.HomeController.New
+  nameWithType: HomeController.HomeController
+  nameWithType.vb: HomeController.New
+- uid: webAppGhp.Controllers.HomeController.Error
+  name: Error()
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController_Error
+  commentId: M:webAppGhp.Controllers.HomeController.Error
+  fullName: webAppGhp.Controllers.HomeController.Error()
+  nameWithType: HomeController.Error()
+- uid: webAppGhp.Controllers.HomeController.Error*
+  name: Error
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController_Error_
+  commentId: Overload:webAppGhp.Controllers.HomeController.Error
+  isSpec: "True"
+  fullName: webAppGhp.Controllers.HomeController.Error
+  nameWithType: HomeController.Error
+- uid: webAppGhp.Controllers.HomeController.Index
+  name: Index()
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController_Index
+  commentId: M:webAppGhp.Controllers.HomeController.Index
+  fullName: webAppGhp.Controllers.HomeController.Index()
+  nameWithType: HomeController.Index()
+- uid: webAppGhp.Controllers.HomeController.Index*
+  name: Index
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController_Index_
+  commentId: Overload:webAppGhp.Controllers.HomeController.Index
+  isSpec: "True"
+  fullName: webAppGhp.Controllers.HomeController.Index
+  nameWithType: HomeController.Index
+- uid: webAppGhp.Controllers.HomeController.Privacy
+  name: Privacy()
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController_Privacy
+  commentId: M:webAppGhp.Controllers.HomeController.Privacy
+  fullName: webAppGhp.Controllers.HomeController.Privacy()
+  nameWithType: HomeController.Privacy()
+- uid: webAppGhp.Controllers.HomeController.Privacy*
+  name: Privacy
+  href: api/webAppGhp.Controllers.HomeController.html#webAppGhp_Controllers_HomeController_Privacy_
+  commentId: Overload:webAppGhp.Controllers.HomeController.Privacy
+  isSpec: "True"
+  fullName: webAppGhp.Controllers.HomeController.Privacy
+  nameWithType: HomeController.Privacy
+- uid: webAppGhp.Models
+  name: webAppGhp.Models
+  href: api/webAppGhp.Models.html
+  commentId: N:webAppGhp.Models
+  fullName: webAppGhp.Models
+  nameWithType: webAppGhp.Models
+- uid: webAppGhp.Models.ErrorViewModel
+  name: ErrorViewModel
+  href: api/webAppGhp.Models.ErrorViewModel.html
+  commentId: T:webAppGhp.Models.ErrorViewModel
+  fullName: webAppGhp.Models.ErrorViewModel
+  nameWithType: ErrorViewModel
+- uid: webAppGhp.Models.ErrorViewModel.RequestId
+  name: RequestId
+  href: api/webAppGhp.Models.ErrorViewModel.html#webAppGhp_Models_ErrorViewModel_RequestId
+  commentId: P:webAppGhp.Models.ErrorViewModel.RequestId
+  fullName: webAppGhp.Models.ErrorViewModel.RequestId
+  nameWithType: ErrorViewModel.RequestId
+- uid: webAppGhp.Models.ErrorViewModel.RequestId*
+  name: RequestId
+  href: api/webAppGhp.Models.ErrorViewModel.html#webAppGhp_Models_ErrorViewModel_RequestId_
+  commentId: Overload:webAppGhp.Models.ErrorViewModel.RequestId
+  isSpec: "True"
+  fullName: webAppGhp.Models.ErrorViewModel.RequestId
+  nameWithType: ErrorViewModel.RequestId
+- uid: webAppGhp.Models.ErrorViewModel.ShowRequestId
+  name: ShowRequestId
+  href: api/webAppGhp.Models.ErrorViewModel.html#webAppGhp_Models_ErrorViewModel_ShowRequestId
+  commentId: P:webAppGhp.Models.ErrorViewModel.ShowRequestId
+  fullName: webAppGhp.Models.ErrorViewModel.ShowRequestId
+  nameWithType: ErrorViewModel.ShowRequestId
+- uid: webAppGhp.Models.ErrorViewModel.ShowRequestId*
+  name: ShowRequestId
+  href: api/webAppGhp.Models.ErrorViewModel.html#webAppGhp_Models_ErrorViewModel_ShowRequestId_
+  commentId: Overload:webAppGhp.Models.ErrorViewModel.ShowRequestId
+  isSpec: "True"
+  fullName: webAppGhp.Models.ErrorViewModel.ShowRequestId
+  nameWithType: ErrorViewModel.ShowRequestId

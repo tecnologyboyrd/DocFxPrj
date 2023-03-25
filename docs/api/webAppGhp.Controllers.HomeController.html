@@ -1,0 +1,885 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class HomeController
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class HomeController
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="webAppGhp.Controllers.HomeController">
+
+
+  <h1 id="webAppGhp_Controllers_HomeController" data-uid="webAppGhp.Controllers.HomeController" class="text-break">Class HomeController
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">ControllerBase</span></div>
+    <div class="level2"><span class="xref">Controller</span></div>
+    <div class="level3"><span class="xref">HomeController</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IActionFilter</span></div>
+    <div><span class="xref">IAsyncActionFilter</span></div>
+    <div><span class="xref">IFilterMetadata</span></div>
+    <div><span class="xref">IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Controller.View()</span>
+    </div>
+    <div>
+      <span class="xref">Controller.View(string)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.View(object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.View(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.PartialView()</span>
+    </div>
+    <div>
+      <span class="xref">Controller.PartialView(string)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.PartialView(object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.PartialView(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.ViewComponent(string)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.ViewComponent(Type)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.ViewComponent(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.ViewComponent(Type, object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.Json(object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.Json(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.OnActionExecuting(ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.OnActionExecuted(ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.OnActionExecutionAsync(ActionExecutingContext, ActionExecutionDelegate)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">Controller.Dispose(bool)</span>
+    </div>
+    <div>
+      <span class="xref">Controller.ViewData</span>
+    </div>
+    <div>
+      <span class="xref">Controller.TempData</span>
+    </div>
+    <div>
+      <span class="xref">Controller.ViewBag</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.StatusCode(int)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.StatusCode(int, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Content(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Content(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Content(string, string, Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Content(string, MediaTypeHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.NoContent()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Ok()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Ok(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Redirect(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectPermanent(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectPreserveMethod(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectPermanentPreserveMethod(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.LocalRedirect(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.LocalRedirectPermanent(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.LocalRedirectPreserveMethod(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.LocalRedirectPermanentPreserveMethod(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction(string, string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction(string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToAction(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPreserveMethod(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanent(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanent(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanent(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanent(string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanent(string, string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanent(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToActionPermanentPreserveMethod(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoute(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoute(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoute(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoute(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoute(string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePreserveMethod(string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePermanent(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePermanent(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePermanent(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePermanent(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePermanent(string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToRoutePermanentPreserveMethod(string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPage(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPage(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPage(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPage(string, string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPage(string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPage(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePermanent(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePermanent(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePermanent(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePermanent(string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePermanent(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePreserveMethod(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RedirectToPagePermanentPreserveMethod(string, string, object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(byte[], string, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(Stream, string, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.File(string, string, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, string, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, string, DateTimeOffset?, EntityTagHeaderValue)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.PhysicalFile(string, string, string, DateTimeOffset?, EntityTagHeaderValue, bool)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Unauthorized()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Unauthorized(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.NotFound()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.NotFound(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.BadRequest()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.BadRequest(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.BadRequest(ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.UnprocessableEntity()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.UnprocessableEntity(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.UnprocessableEntity(ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Conflict()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Conflict(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Conflict(ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Problem(string, string, int?, string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ValidationProblem(ValidationProblemDetails)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ValidationProblem(ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ValidationProblem()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ValidationProblem(string, string, int?, string, string, ModelStateDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Created(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Created(Uri, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.CreatedAtAction(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.CreatedAtAction(string, object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.CreatedAtAction(string, string, object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.CreatedAtRoute(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.CreatedAtRoute(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.CreatedAtRoute(string, object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Accepted()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Accepted(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Accepted(Uri)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Accepted(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Accepted(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Accepted(Uri, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtAction(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtAction(string, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtAction(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtAction(string, string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtAction(string, object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtAction(string, string, object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtRoute(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtRoute(string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtRoute(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtRoute(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.AcceptedAtRoute(string, object, object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Challenge()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Challenge(params string[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Challenge(AuthenticationProperties)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Challenge(AuthenticationProperties, params string[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Forbid()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Forbid(params string[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Forbid(AuthenticationProperties)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Forbid(AuthenticationProperties, params string[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignIn(ClaimsPrincipal)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignIn(ClaimsPrincipal, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignIn(ClaimsPrincipal, AuthenticationProperties)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignIn(ClaimsPrincipal, AuthenticationProperties, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignOut()</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignOut(AuthenticationProperties)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignOut(params string[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.SignOut(AuthenticationProperties, params string[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel, string, IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel, string, params Expression&lt;Func&lt;TModel, object&gt;&gt;[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel, string, Func&lt;ModelMetadata, bool&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel, string, IValueProvider, params Expression&lt;Func&lt;TModel, object&gt;&gt;[])</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync&lt;TModel&gt;(TModel, string, IValueProvider, Func&lt;ModelMetadata, bool&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync(object, Type, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryUpdateModelAsync(object, Type, string, IValueProvider, Func&lt;ModelMetadata, bool&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryValidateModel(object)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.TryValidateModel(object, string)</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.HttpContext</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Request</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Response</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.RouteData</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.MetadataProvider</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ModelBinderFactory</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Url</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ObjectValidator</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.ProblemDetailsFactory</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.User</span>
+    </div>
+    <div>
+      <span class="xref">ControllerBase.Empty</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">webAppGhp</span>.<a class="xref" href="webAppGhp.Controllers.html">Controllers</a></h6>
+  <h6><strong>Assembly</strong>: webAppGhp.dll</h6>
+  <h5 id="webAppGhp_Controllers_HomeController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HomeController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/new/main/apiSpec/new?filename=webAppGhp_Controllers_HomeController__ctor_Microsoft_Extensions_Logging_ILogger_webAppGhp_Controllers_HomeController__.md&amp;value=---%0Auid%3A%20webAppGhp.Controllers.HomeController.%23ctor(Microsoft.Extensions.Logging.ILogger%7BwebAppGhp.Controllers.HomeController%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/blob/main/webAppGhp/Controllers/HomeController.cs/#L11">View Source</a>
+  </span>
+  <a id="webAppGhp_Controllers_HomeController__ctor_" data-uid="webAppGhp.Controllers.HomeController.#ctor*"></a>
+  <h4 id="webAppGhp_Controllers_HomeController__ctor_Microsoft_Extensions_Logging_ILogger_webAppGhp_Controllers_HomeController__" data-uid="webAppGhp.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{webAppGhp.Controllers.HomeController})">HomeController(ILogger&lt;HomeController&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HomeController(ILogger&lt;HomeController&gt; logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="webAppGhp.Controllers.HomeController.html">HomeController</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/new/main/apiSpec/new?filename=webAppGhp_Controllers_HomeController_Error.md&amp;value=---%0Auid%3A%20webAppGhp.Controllers.HomeController.Error%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/blob/main/webAppGhp/Controllers/HomeController.cs/#L26">View Source</a>
+  </span>
+  <a id="webAppGhp_Controllers_HomeController_Error_" data-uid="webAppGhp.Controllers.HomeController.Error*"></a>
+  <h4 id="webAppGhp_Controllers_HomeController_Error" data-uid="webAppGhp.Controllers.HomeController.Error">Error()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+public IActionResult Error()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/new/main/apiSpec/new?filename=webAppGhp_Controllers_HomeController_Index.md&amp;value=---%0Auid%3A%20webAppGhp.Controllers.HomeController.Index%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/blob/main/webAppGhp/Controllers/HomeController.cs/#L16">View Source</a>
+  </span>
+  <a id="webAppGhp_Controllers_HomeController_Index_" data-uid="webAppGhp.Controllers.HomeController.Index*"></a>
+  <h4 id="webAppGhp_Controllers_HomeController_Index" data-uid="webAppGhp.Controllers.HomeController.Index">Index()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionResult Index()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/new/main/apiSpec/new?filename=webAppGhp_Controllers_HomeController_Privacy.md&amp;value=---%0Auid%3A%20webAppGhp.Controllers.HomeController.Privacy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tecnologyboyrd/DocFxPrj/blob/main/webAppGhp/Controllers/HomeController.cs/#L21">View Source</a>
+  </span>
+  <a id="webAppGhp_Controllers_HomeController_Privacy_" data-uid="webAppGhp.Controllers.HomeController.Privacy*"></a>
+  <h4 id="webAppGhp_Controllers_HomeController_Privacy" data-uid="webAppGhp.Controllers.HomeController.Privacy">Privacy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionResult Privacy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter</span>
+  </div>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter</span>
+  </div>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/tecnologyboyrd/DocFxPrj/new/main/apiSpec/new?filename=webAppGhp_Controllers_HomeController.md&amp;value=---%0Auid%3A%20webAppGhp.Controllers.HomeController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/tecnologyboyrd/DocFxPrj/blob/main/webAppGhp/Controllers/HomeController.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

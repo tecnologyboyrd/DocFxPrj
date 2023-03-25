@@ -1,0 +1,1 @@
+{"message":"No metadata is generated for DocFxPrj.","source":"MetadataCommand.ExtractMetadata","date_time":"2023-03-25T17:09:13.3070041Z","message_severity":"warning","correlation_id":"5CAB00E2-BF05-413F-A8EC-8E7498811C79.1.1.176"}
